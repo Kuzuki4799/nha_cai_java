@@ -1,3 +1,45 @@
 <resources>
-    <string name="app_name">nha_cai_java</string>
+    <string name="app_name">79Bet</string>
+    <string name="no_internet">No network, please try again later</string>
+    <string name="content_error">Content path error, please try again later</string>
+    <string name="double_tab">Please click Back again to exit</string>
+    <string name="date_format">https://xskt.com.vn/%s/%s</string>
+    <string name="rate">Đánh giá 5 sao</string>
+    <string name="share">Chia sẻ App</string>
+    <string name="xo_so">Xổ số</string>
+    <string name="title">Title</string>
+    <string name="register">Đăng ký</string>
+    <string name="login">Đăng nhập</string>
+    <string name="gift">Khuyến Mãi</string>
+    <string name="cskh">Liên hệ CSKH</string>
+    <string name="about">Giới thiệu</string>
+    <string name="code">Mã Khách Hàng</string>
+    <string name="enter_name">Nhập họ tên</string>
+    <string name="enter_phone">Nhập số điện thoại</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="content">
+    79Bet Game bài giải trí bản mới nhất đem đến cho người dùng trải nghiệm chơi game trực tuyến tuyệt vời nhất.
+\n
+\n
+	79Bet cung cấp game trải trí mới nhất bao gồm Sòng bài, bắn cá, bài 3D, đá gà/đua ngựa, thể thao, số xố, e-sport, v.v...
+\n
+\n
+	79Bet tính bảo mật tuyệt đối và không bao giờ tiết lộ thông tin cho bất kỳ bên thứ 3 nào. Tối ưu hóa kêt nối 3G, 4G, Wifi trên các thiết bị smartphone hay máy tính bảng.
+\n
+\n
+    79Bet tự hào là cổng game online uy tín số và độ an toàn bảo mật nhất thi trường hiện tại.
+\n
+\n
+   Hỗ trợ trực tuyến 24/7 nhiệt tình chu đáo.
+\n
+\n
+    Chú ý:
+\n
+\n
+    - Trò chơi không cung cấp "cờ bạc tiền thật" hay đổi thưởng sang tiền thật.
+\n
+\n
+    - Chơi game quá 180 phút mỗi ngày sẽ ảnh hưởng không tốt cho sức khỏe</string>
+    <string name="copy_success">Sao chép thành công</string>
 </resources>

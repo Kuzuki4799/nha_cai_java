@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.RegisterActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_20dp"
+        android:src="@drawable/ic_back"
+        app:tint="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_70dp"
+        android:paddingRight="@dimen/dimen_70dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edName"
+            style="@style/textNormal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:background="@drawable/bg_gradient_radius"
+            android:hint="@string/enter_name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:paddingStart="@dimen/margin_10dp"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingEnd="@dimen/margin_10dp"
+            android:paddingRight="@dimen/margin_10dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_18sp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edPhone"
+            style="@style/textNormal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:background="@drawable/bg_gradient_radius"
+            android:hint="@string/enter_phone"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:paddingStart="@dimen/margin_10dp"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingEnd="@dimen/margin_10dp"
+            android:paddingRight="@dimen/margin_10dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_18sp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            style="@style/textNormalBold"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18sp" />
+    </LinearLayout>
+</RelativeLayout>
