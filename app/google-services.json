@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "48000236821",
-    "project_id": "fun-426ac",
-    "storage_bucket": "fun-426ac.appspot.com"
+    "project_number": "635488840870",
+    "firebase_url": "https://fun-20fdf-default-rtdb.firebaseio.com",
+    "project_id": "fun-20fdf",
+    "storage_bucket": "fun-20fdf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:48000236821:android:91d1c79d5d9c080fc83d1c",
+        "mobilesdk_app_id": "1:635488840870:android:8e2c0d47022c1d90c25867",
         "android_client_info": {
-          "package_name": "com.app12fun.apps12fun"
+          "package_name": "com.apps12fun.apps.apps12fun"
         }
       },
       "oauth_client": [
         {
-          "client_id": "48000236821-5qqnq5m8068juo6jgsl3ef1lmhmqtb00.apps.googleusercontent.com",
+          "client_id": "635488840870-0j0f4l9ofhlmqhcst8k398phcsnolk7v.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCt5zLq68WXBVkyLIGNiA-crdiEWebhOMk"
+          "current_key": "AIzaSyCyyeLFIh9hxxCQxYpoJn10nUujl_2fKKU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "48000236821-5qqnq5m8068juo6jgsl3ef1lmhmqtb00.apps.googleusercontent.com",
+              "client_id": "635488840870-0j0f4l9ofhlmqhcst8k398phcsnolk7v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
