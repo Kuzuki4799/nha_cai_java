@@ -240,6 +240,35 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:952601637474:android:fd3562db8a91933d7e573b",
+        "android_client_info": {
+          "package_name": "com.shockwave.bong88"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952601637474-8guvd9ddokkfhcduqkoqq37vil6qm7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdGsNoLKv05LtUz9UyAEnJrmW1yBiaEDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952601637474-8guvd9ddokkfhcduqkoqq37vil6qm7ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:952601637474:android:cf90afaa43dfdc297e573b",
         "android_client_info": {
           "package_name": "com.shockwave.bongx9"
@@ -533,6 +562,35 @@
         "mobilesdk_app_id": "1:952601637474:android:2b4a4b1839b3ae257e573b",
         "android_client_info": {
           "package_name": "com.shockwave.v99win"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952601637474-8guvd9ddokkfhcduqkoqq37vil6qm7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdGsNoLKv05LtUz9UyAEnJrmW1yBiaEDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952601637474-8guvd9ddokkfhcduqkoqq37vil6qm7ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952601637474:android:df17cb1097f189687e573b",
+        "android_client_info": {
+          "package_name": "com.shockwave.vn138"
         }
       },
       "oauth_client": [
