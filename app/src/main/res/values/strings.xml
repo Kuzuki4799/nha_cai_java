@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">12Fun</string>
+    <string name="app_name">7Ball</string>
     <string name="no_internet">No network, please try again later</string>
     <string name="content_error">Content path error, please try again later</string>
     <string name="double_tab">Please click Back again to exit</string>
