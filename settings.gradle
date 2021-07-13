@@ -1,0 +1,2 @@
+rootProject.name = "nha_cai_java"
+include ':app'
