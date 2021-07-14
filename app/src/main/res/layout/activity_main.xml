@@ -96,9 +96,11 @@
             style="@style/textNormalWhite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_margin="@dimen/margin_5dp"
-            android:text="Ver 2.3.3"
+            android:text="Ver 2.3.4"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_12sp" />
     </RelativeLayout>

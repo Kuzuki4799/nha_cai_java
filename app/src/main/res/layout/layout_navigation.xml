@@ -24,10 +24,10 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="@dimen/dimen_150dp"
-                android:layout_height="@dimen/dimen_150dp"
+                android:layout_width="@dimen/dimen_200dp"
+                android:layout_height="@dimen/dimen_100dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logo_horizon" />
         </LinearLayout>
 
         <LinearLayout
