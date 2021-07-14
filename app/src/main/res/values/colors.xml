@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#CA1632</color>
-    <color name="colorPrimaryDark">#CA1632</color>
-    <color name="colorAccent">#CA1632</color>
+    <color name="colorPrimary">#4064AE</color>
+    <color name="colorPrimaryDark">#4064AE</color>
+    <color name="colorAccent">#4064AE</color>
     <color name="bg_disable">#dde4e4</color>
     <color name="yellow">#D5AC46</color>
     <color name="transparent">#00ffffff</color>
