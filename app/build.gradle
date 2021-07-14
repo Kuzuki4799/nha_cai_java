@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.shockwave.bk8"
+        applicationId "com.bk8.apps.bk8app"
         minSdkVersion 16
         targetSdkVersion 30
         multiDexEnabled true
