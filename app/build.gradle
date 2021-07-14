@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.shockwave.fa88_2"
+        applicationId "com.fa882.apps.fa882apps"
         minSdkVersion 16
         targetSdkVersion 30
         multiDexEnabled true
