@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "744542957459",
+    "firebase_url": "https://lottery-3-default-rtdb.firebaseio.com",
     "project_id": "lottery-3",
     "storage_bucket": "lottery-3.appspot.com"
   },
@@ -10,6 +11,35 @@
         "mobilesdk_app_id": "1:744542957459:android:1d665fd15ecfd3c6a68266",
         "android_client_info": {
           "package_name": "com.shockwave.b88_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744542957459-s3c3m33icqf7os08c4i5thagrtng7j9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd0RKLkm0xgqrDCzcwBKy2i5f3WXygXeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744542957459-s3c3m33icqf7os08c4i5thagrtng7j9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744542957459:android:e0be3e7d24baef0fa68266",
+        "android_client_info": {
+          "package_name": "com.shockwave.m88_2"
         }
       },
       "oauth_client": [
