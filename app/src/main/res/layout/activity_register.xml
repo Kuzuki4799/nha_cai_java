@@ -5,15 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     tools:context=".activity.RegisterActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imgBack"
+        android:id="@+id/imageBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/dimen_20dp"
-        android:src="@drawable/ic_back"
+        android:src="@drawable/icon_back"
         app:tint="@android:color/white" />
 
     <LinearLayout
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_150dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/logo" />
+            android:src="@drawable/logo_app" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edName"
@@ -39,7 +39,7 @@
             android:layout_marginTop="@dimen/dimen_30dp"
             android:layout_marginLeft="@dimen/margin_10dp"
             android:layout_marginRight="@dimen/margin_10dp"
-            android:background="@drawable/bg_gradient_radius"
+            android:background="@drawable/bg_radius"
             android:hint="@string/enter_name"
             android:imeOptions="actionNext"
             android:inputType="text"
@@ -60,7 +60,7 @@
             android:layout_marginLeft="@dimen/margin_10dp"
             android:layout_marginTop="@dimen/dimen_20dp"
             android:layout_marginRight="@dimen/margin_10dp"
-            android:background="@drawable/bg_gradient_radius"
+            android:background="@drawable/bg_radius"
             android:hint="@string/enter_phone"
             android:imeOptions="actionDone"
             android:inputType="phone"
@@ -81,7 +81,7 @@
             android:layout_marginLeft="@dimen/margin_10dp"
             android:layout_marginTop="@dimen/dimen_20dp"
             android:layout_marginRight="@dimen/margin_10dp"
-            android:background="@drawable/bg_button"
+            android:background="@drawable/bg_btn"
             android:gravity="center"
             android:text="@string/register"
             android:textAllCaps="false"

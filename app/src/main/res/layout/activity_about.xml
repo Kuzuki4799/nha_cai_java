@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     tools:context=".activity.AboutActivity">
 
     <ScrollView
@@ -17,26 +17,26 @@
             android:layout_height="wrap_content">
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/imgBack"
+                android:id="@+id/imageBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/dimen_20dp"
-                android:src="@drawable/ic_back"
+                android:src="@drawable/icon_back"
                 app:tint="@android:color/white" />
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/imgLogo"
+                android:id="@+id/imageLogo"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dimen_150dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/dimen_50dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logo_app" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/textNormalWhite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imgLogo"
+                android:layout_below="@+id/imageLogo"
                 android:layout_margin="@dimen/dimen_20dp"
                 android:text="@string/content"
                 android:textColor="@android:color/white"

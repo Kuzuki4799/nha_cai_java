@@ -9,7 +9,7 @@
         android:id="@+id/root"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_base_light_dialog"
+        android:background="@drawable/bg_light_dialog"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:padding="@dimen/dimen_20dp">
@@ -31,7 +31,7 @@
             style="@style/textNormalBold"
             android:layout_width="@dimen/dimen_100dp"
             android:layout_height="@dimen/dimen_40dp"
-            android:background="@drawable/bg_button"
+            android:background="@drawable/bg_btn"
             android:text="Copy"
             android:textAllCaps="false"
             android:textSize="@dimen/text_size_16sp" />

@@ -1,6 +1,5 @@
 package com.shockwave.nha_cai_java.activity;
 
-import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.widget.AppCompatImageView;
@@ -19,7 +18,7 @@ public class AboutActivity extends BaseActivity {
 
     @Override
     protected void initView() {
-        imgBack = findViewById(R.id.imgBack);
+        imgBack = findViewById(R.id.imageBack);
     }
 
     @Override

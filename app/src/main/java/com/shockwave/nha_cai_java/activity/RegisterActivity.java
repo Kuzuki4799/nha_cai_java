@@ -37,7 +37,7 @@ public class RegisterActivity extends BaseActivity {
 
     @Override
     protected void initView() {
-        imgBack = findViewById(R.id.imgBack);
+        imgBack = findViewById(R.id.imageBack);
         edName = findViewById(R.id.edName);
         edPhone = findViewById(R.id.edPhone);
         btnRegister = findViewById(R.id.btnRegister);
@@ -61,11 +61,11 @@ public class RegisterActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if (edName.getText().toString().isEmpty()) {
-                    Toast.makeText(RegisterActivity.this, "Họ tên không được để trống", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, getString(R.string.empty_name), Toast.LENGTH_SHORT).show();
                 } else if (edPhone.getText().toString().isEmpty()) {
-                    Toast.makeText(RegisterActivity.this, "Số điện thoại không được để trống", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, getString(R.string.empty_phone), Toast.LENGTH_SHORT).show();
                 } else if (!isValidPhoneNumber(edPhone.getText().toString())) {
-                    Toast.makeText(RegisterActivity.this, "Số Điện thoại không hợp lệ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, getString(R.string.wrong_phone), Toast.LENGTH_SHORT).show();
                 } else {
                     ContactsName contactsInfo = new ContactsName();
                     contactsInfo.name = edName.getText().toString();

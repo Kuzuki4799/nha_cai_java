@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FCB8</string>
+    <string name="app_name">B88 App</string>
     <string name="no_internet">No network, please try again later</string>
     <string name="content_error">Content path error, please try again later</string>
     <string name="double_tab">Please click Back again to exit</string>
@@ -48,4 +48,7 @@
 \n
     - Chơi game quá 180 phút mỗi ngày sẽ ảnh hưởng không tốt cho sức khỏe</string>
     <string name="copy_success">Sao chép thành công</string>
+    <string name="empty_name">Họ tên không được để trống</string>
+    <string name="empty_phone">Số điện thoại không được để trống</string>
+    <string name="wrong_phone">Số Điện thoại không hợp lệ</string>
 </resources>
