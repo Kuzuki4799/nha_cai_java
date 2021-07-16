@@ -95,7 +95,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
-        toolbar.setNavigationIcon(R.drawable.icon_menu);
+        toolbar.setNavigationIcon(R.drawable.ic_menu);
     }
 
     @Override

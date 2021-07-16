@@ -17,7 +17,7 @@
             android:id="@+id/constaint"
             android:layout_width="match_parent"
             android:layout_height="@dimen/margin_0dp"
-            android:background="@drawable/bg_menu"
+            android:background="@drawable/bg_background_menu"
             android:gravity="bottom"
             android:orientation="vertical"
             app:layout_constraintDimensionRatio="572:452"
@@ -50,7 +50,7 @@
                 android:layout_height="@dimen/dimen_45dp"
                 android:layout_gravity="center"
                 android:padding="@dimen/margin_5dp"
-                android:src="@drawable/icon_intro" />
+                android:src="@drawable/ic_intro" />
 
             <TextView
                 style="@style/textNormal"
@@ -81,7 +81,7 @@
                 android:layout_height="@dimen/dimen_45dp"
                 android:layout_gravity="center"
                 android:padding="@dimen/margin_5dp"
-                android:src="@drawable/icon_customer" />
+                android:src="@drawable/ic_customer" />
 
             <TextView
                 style="@style/textNormal"
