@@ -31,8 +31,8 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/dimen_150dp"
-                android:scaleType="fitCenter"
+                android:layout_height="@dimen/dimen_160dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/logo_app" />
 
             <Button
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_margin="@dimen/margin_5dp"
-            android:text="Ver 2.4.3"
+            android:text="Ver 2.5.0"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_12sp" />
     </RelativeLayout>

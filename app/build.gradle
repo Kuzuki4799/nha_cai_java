@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.shockwave.loto188"
+        applicationId "com.shockwave.b52_2"
         minSdkVersion 16
         targetSdkVersion 30
         multiDexEnabled true
