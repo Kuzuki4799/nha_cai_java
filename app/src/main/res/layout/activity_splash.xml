@@ -18,8 +18,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imageLogo"
-            android:layout_width="@dimen/dimen_250dp"
-            android:layout_height="@dimen/dimen_250dp"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_150dp"
             android:layout_marginLeft="@dimen/dimen_20dp"
             android:layout_marginRight="@dimen/dimen_20dp"
             android:src="@drawable/logo_app" />
@@ -27,6 +27,7 @@
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_50dp"
             android:indeterminateTint="@android:color/white" />
     </LinearLayout>
 </RelativeLayout>

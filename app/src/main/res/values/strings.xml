@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">12Bet App</string>
+    <string name="app_name">B24 App</string>
     <string name="no_internet">No network, please try again later</string>
     <string name="content_error">Content path error, please try again later</string>
     <string name="double_tab">Please click Back again to exit</string>
@@ -19,31 +19,25 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="content">
-    12Bet App - là ứng dụng giải trí trực tuyến về Thể Thao, thể thao ảo tấn khủng nhất 2021 đầy đủ các trò chơi game đánh bài đổi thưởng hot, nhẹ nhưng vẫn đầy đủ các tính năng hấp dẫn.
+    B24 App - là cổng game Bài đổi thưởng đẳng cấp hàng đầu châu Á với nhiều phần quà Hot năm 2021
 \n
 \n
-    Đặc biệt thế mạnh về thể thao và thể thao ảo của chúng tôi chiếm thị phần lớn nhất tại Việt Nam.
+    Giao diện ứng dụng thân thiện và dễ sử dụng, bạn có thể dễ dàng đăng ký, đăng nhập và nhận khuyến mại từ nhà tài trợ.
 \n
 \n
-	12Bet App có những yêu điểm tốt và càng ngày chuẩn mực hơn nhờ những ưu điểm riêng biệt :
+	B24 App mang đến cho bạn trải nghiệm đầy sảng khoái sau những giờ học tập và làm việc căng thẳng.
 \n
 \n
-    - Hướng dẫn cài đặt ứng dụng nhanh chóng
+    Đội ngũ hỗ trợ khách hàng được đào tạo bài bản, 24/7.
 \n
 \n
-    - Mong muốn mang đến cho người chơi trải nghiệm tuyệt vời
+    Tối ưu hóa kết nối 3G, 4G, Wifi trên các thiết bị smartphone hay máy tính bảng, B24 App tính bảo mật tuyệt đối và không bao giờ tiết lộ thông tin cho bất kỳ bên thứ 3 nào.
 \n
 \n
-    - Giao diện ứng dụng thân thiện và dễ sử dụng, bạn có thể dễ dàng đăng ký, đăng nhập và nhận khuyến mại từ nhà tài trợ.
+    Cảm ơn bạn đã sử dụng ứng dụng B24 App mới nhất, nếu bạn yêu thích ứng dụng này vui lòng để lại 1 đánh giá 5 sao để hỗ trợ nhà phát triển.
 \n
 \n
-    - Chăm sóc khách hàng chuyên nghiệp, hậu mãi cực ky ổn, đội ngủ hỗ trợ, admin, support túc trực 24/7 chỉ để làm hài lòng người dùng
-\n
-\n
-    - Ứng dụng 12Bet App được thiết kế với giao diện sống động chân thật nhất và được tối ưu hóa kết nối 3G/4G hay wifi ngay cả khi mạng internet của bạn không thực sự ổn định.
-\n
-\n
-    Trải nghiệm nhiều điểm nổi bật nhất từ ứng dụng của chúng tôi ngay hôm nay!</string>
+    Cảm ơn bạn rất nhiều!</string>
     <string name="copy_success">Sao chép thành công</string>
     <string name="empty_name">Họ tên không được để trống</string>
     <string name="empty_phone">Số điện thoại không được để trống</string>
