@@ -103,4 +103,5 @@
     <dimen name="dimen_32dp">32dp</dimen>
     <dimen name="dimen_62dp">62dp</dimen>
     <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="dimen_170dp">170dp</dimen>
 </resources>

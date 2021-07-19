@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DD7 App</string>
+    <string name="app_name">G88 App</string>
     <string name="no_internet">No network, please try again later</string>
     <string name="content_error">Content path error, please try again later</string>
     <string name="double_tab">Please click Back again to exit</string>
@@ -19,22 +19,19 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="content">
-    DD7 App - là cổng game Bài đổi thưởng đẳng cấp hàng đầu châu Á với nhiều phần quà Hot năm 2021
+    G88 App game bài đổi thưởng uy tín 2021 mang tính hiện đại, phong cách đổi mới hoàn toàn, được đông đảo người chơi ủng hộ và tham gia chơi.
 \n
 \n
-    Giao diện ứng dụng thân thiện và dễ sử dụng, bạn có thể dễ dàng đăng ký, đăng nhập và nhận khuyến mại từ nhà tài trợ.
+    G88 App Giao diện 3D sống động, âm thanh, trò chơi thiết kế sinh động, hấp dẫn, đẹp mắt.
 \n
 \n
-	Đội ngũ hỗ trợ khách hàng được đào tạo bài bản, 24/7.
+	Đội ngũ hỗ trợ khách hàng được đào tạo bài bản, liên hệ 24/7.
 \n
 \n
     Tối ưu hóa kết nối 3G, 4G, Wifi trên các thiết bị smartphone hay máy tính bảng, bảo mật tuyệt đối và không bao giờ tiết lộ thông tin cho bất kỳ bên thứ 3 nào.
 \n
 \n
-    Nếu bạn yêu thích ứng dụng này vui lòng để lại 1 đánh giá 5 sao để hỗ trợ nhà phát triển.
-\n
-\n
-    Cảm ơn bạn rất nhiều!</string>
+    Hãy tải ngay G88 App, để nhận ngay quà tân thủ đang chờ đón bạn, nhanh tay tải game nhận quà nào !</string>
     <string name="copy_success">Sao chép thành công</string>
     <string name="empty_name">Họ tên không được để trống</string>
     <string name="empty_phone">Số điện thoại không được để trống</string>

@@ -27,7 +27,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_170dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/logo_app" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -35,8 +36,8 @@
             style="@style/textNormal"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_50dp"
-            android:layout_marginTop="@dimen/dimen_30dp"
             android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/dimen_30dp"
             android:layout_marginRight="@dimen/margin_10dp"
             android:background="@drawable/bg_background_radius"
             android:hint="@string/enter_name"
