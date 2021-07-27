@@ -701,6 +701,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320607925528:android:c2556964f2d3309c611a6d",
+        "android_client_info": {
+          "package_name": "com.shockwave.oppa88"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320607925528-u3p42d34btd91gj04vtkegpp420o7eip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYUuRcx1AV3_KP1MgXS552uwfCzf5GDGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320607925528-u3p42d34btd91gj04vtkegpp420o7eip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

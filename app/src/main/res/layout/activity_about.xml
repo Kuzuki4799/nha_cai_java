@@ -32,7 +32,6 @@
                 android:layout_marginLeft="@dimen/dimen_70dp"
                 android:layout_marginTop="@dimen/dimen_50dp"
                 android:layout_marginRight="@dimen/dimen_70dp"
-                android:scaleType="centerCrop"
                 android:src="@drawable/logo_app" />
 
             <androidx.appcompat.widget.AppCompatTextView
