@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.shockwave.vb68_lite"
+        applicationId "com.appsvb68lite1.app.vb68lite1apps"
         minSdkVersion 16
         targetSdkVersion 30
         multiDexEnabled true
