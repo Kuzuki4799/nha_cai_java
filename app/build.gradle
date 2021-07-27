@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.shockwave.ibet_2"
+        applicationId "com.appsibet1.app.ibet1apps"
         minSdkVersion 16
         targetSdkVersion 30
         multiDexEnabled true
