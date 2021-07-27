@@ -18,8 +18,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imageLogo"
-            android:layout_width="@dimen/dimen_250dp"
-            android:layout_height="@dimen/dimen_250dp"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="@dimen/dimen_200dp"
             android:layout_marginLeft="@dimen/dimen_20dp"
             android:layout_marginRight="@dimen/dimen_20dp"
             android:src="@drawable/logo_app" />
