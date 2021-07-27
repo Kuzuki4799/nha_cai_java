@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nagavip App</string>
+    <string name="app_name">Nextbet App</string>
     <string name="no_internet">No network, please try again later</string>
     <string name="content_error">Content path error, please try again later</string>
     <string name="double_tab">Please click Back again to exit</string>
@@ -19,22 +19,19 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="content">
-    Nagavip App - là ứng dụng giải trí trực tuyến bom tấn đầy đủ các trò chơi game hot
+    Nextbet App luôn là điểm đến hấp dẫn cho các tín đồ của môn thể thao vua.
 \n
 \n
-    Ứng dụng có những yêu điểm tốt và càng ngày chuẩn mực hơn nhờ những ưu điểm riêng biệt :
+    Ứng dụng cung cấp hàng loạt tính năng giải trí hot trên thị trường.:
 \n
 \n
-	- Giao diện ứng dụng thân thiện và dễ sử dụng, bạn có thể dễ dàng đăng ký, đăng nhập và nhận khuyến mại từ nhà tài trợ.
+	- Hỗ trợ đăng ký và truy cập nhanh.
 \n
 \n
-    - Chăm sóc khách hàng chuyên nghiệp, hậu mãi cực ky ổn, đội ngủ hỗ trợ, admin, support túc trực 24/7 chỉ để làm hài lòng người dùng
+    - Hệ thống chăm sóc khách hàng 24/7 giải đáp mọi thắc mắc.
 \n
 \n
-    - Ứng dụng được thiết kế với giao diện sống động chân thật nhất và được tối ưu hóa kết nối 3G/4G hay wifi ngay cả khi mạng internet của bạn không thực sự ổn định.
-\n
-\n
-    Trải nghiệm nhiều điểm nổi bật nhất từ ứng dụng của chúng tôi ngay hôm nay!</string>
+    Tải ngay để được tham gia vào nhóm hỗ trợ thể thao hàng ngày!</string>
     <string name="copy_success">Sao chép thành công</string>
     <string name="empty_name">Họ tên không được để trống</string>
     <string name="empty_phone">Số điện thoại không được để trống</string>
