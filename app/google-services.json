@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:38335461579:android:cb0c173cebb6c26cdf434e",
+        "android_client_info": {
+          "package_name": "com.shockwave.app_868h"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38335461579-q6nscj518qj0jql67ci0tpegc1qt7ord.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSJaA_IKDk2hpBVeQdb051GAUhndXs1hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38335461579-q6nscj518qj0jql67ci0tpegc1qt7ord.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:38335461579:android:bd2d10e949b17f88df434e",
         "android_client_info": {
           "package_name": "com.shockwave.kimvip"

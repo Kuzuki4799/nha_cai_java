@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#A10505</color>
-    <color name="colorPrimaryDark">#A10505</color>
-    <color name="colorAccent">#A10505</color>
+    <color name="colorPrimary">#161516</color>
+    <color name="colorPrimaryDark">#161516</color>
+    <color name="colorAccent">#161516</color>
     <color name="bg_disable">#dde4e4</color>
     <color name="yellow">#ECCE50</color>
     <color name="transparent">#00ffffff</color>
