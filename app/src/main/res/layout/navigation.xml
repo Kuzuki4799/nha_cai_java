@@ -24,9 +24,10 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="@dimen/dimen_150dp"
+                android:layout_width="@dimen/dimen_100dp"
                 android:layout_height="@dimen/dimen_100dp"
-                android:src="@drawable/lgs_horizon" />
+                android:layout_margin="@dimen/margin_10dp"
+                android:src="@drawable/lgs" />
         </LinearLayout>
 
         <LinearLayout

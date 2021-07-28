@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">85Bet App</string>
+    <string name="app_name">M99Vin App</string>
     <string name="no_internet">No network, please try again later</string>
     <string name="content_error">Content path error, please try again later</string>
     <string name="double_tab">Please click Back again to exit</string>
@@ -19,25 +19,25 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="content">
-    85Bet App chính thức của cổng game hot và uy tín, giao diện app mới.
+    M99Vin App chính thức của cổng game uy tin, hot, giao diện app mới.
 \n
 \n
-    -  Được tối ưu hóa kết nối thiết bị Smartphone.
+    - Được tối ưu hóa kết nối thiết bị Smartphone.
 \n
 \n
-	- Cập nhật bảo mật mới và đảm bảo thông tin cho khách hàng
+	- Cập nhật bảo mật mới
 \n
 \n
     - Nhiều khuyến mãi hâp dẫn khi tải app chính thức
 \n
 \n
-    - Đội ngũ admin, hỗ trợ và tư vấn 24/7 để luôn làm hài lòng khách hàng
+    - Đội ngũ hỗ trợ 24/7.
 \n
 \n
-    Trải nghiệm nhiều điểm nổi bật nhất từ ứng dụng của chúng tôi ngay hôm nay!
+    Cảm ơn bạn đã sử dụng ứng dụng, nếu bạn yêu thích ứng dụng này vui lòng để lại 1 đánh giá 5 sao để hỗ trợ nhà phát triển.
 \n
 \n
-    Cảm ơn các bạn!</string>
+    Để trải nghiệm thêm và biết thêm những điều thú vị!.</string>
     <string name="copy_success">Sao chép thành công</string>
     <string name="empty_name">Họ tên không được để trống</string>
     <string name="empty_phone">Số điện thoại không được để trống</string>
