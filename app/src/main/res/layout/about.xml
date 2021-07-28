@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_background"
-    tools:context=".activity.AboutActivity">
+    android:background="@drawable/bg"
+    tools:context=".activity.About">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/dimen_20dp"
-                android:src="@drawable/ic_back"
+                android:src="@drawable/backs"
                 app:tint="@android:color/white" />
 
             <androidx.appcompat.widget.AppCompatImageView
@@ -32,7 +32,7 @@
                 android:layout_marginLeft="@dimen/dimen_70dp"
                 android:layout_marginTop="@dimen/dimen_50dp"
                 android:layout_marginRight="@dimen/dimen_70dp"
-                android:src="@drawable/logo_app" />
+                android:src="@drawable/lgs" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/textNormalWhite"

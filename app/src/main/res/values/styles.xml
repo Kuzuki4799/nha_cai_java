@@ -18,7 +18,7 @@
 
     <style name="AppThemeTranslate" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
-        <item name="android:windowBackground">@drawable/bg_background</item>
+        <item name="android:windowBackground">@drawable/bg</item>
     </style>
 
     <style name="Edit" parent="Theme.AppCompat.Light.NoActionBar">

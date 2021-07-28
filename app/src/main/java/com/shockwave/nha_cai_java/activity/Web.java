@@ -11,13 +11,13 @@ import com.shockwave.nha_cai_java.R;
 import com.shockwave.nha_cai_java.base.BaseActivity;
 import com.shockwave.nha_cai_java.utils.ParamUtils;
 
-public class WebActivity extends BaseActivity {
+public class Web extends BaseActivity {
 
     private WebView webViewContent;
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_web;
+        return R.layout.web;
     }
 
     @Override

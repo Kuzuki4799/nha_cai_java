@@ -17,7 +17,7 @@
             android:id="@+id/constaint"
             android:layout_width="match_parent"
             android:layout_height="@dimen/margin_0dp"
-            android:background="@drawable/bg_background_menu"
+            android:background="@drawable/bg_mes"
             android:gravity="bottom"
             android:orientation="vertical"
             app:layout_constraintDimensionRatio="572:452"
@@ -27,7 +27,7 @@
                 android:layout_width="@dimen/dimen_100dp"
                 android:layout_height="@dimen/dimen_100dp"
                 android:layout_margin="@dimen/margin_10dp"
-                android:src="@drawable/logo_app" />
+                android:src="@drawable/lgs" />
         </LinearLayout>
 
         <LinearLayout
@@ -49,7 +49,7 @@
                 android:layout_height="@dimen/dimen_45dp"
                 android:layout_gravity="center"
                 android:padding="@dimen/margin_5dp"
-                android:src="@drawable/ic_intro" />
+                android:src="@drawable/ins" />
 
             <TextView
                 style="@style/textNormal"
@@ -80,7 +80,7 @@
                 android:layout_height="@dimen/dimen_45dp"
                 android:layout_gravity="center"
                 android:padding="@dimen/margin_5dp"
-                android:src="@drawable/ic_customer" />
+                android:src="@drawable/cus" />
 
             <TextView
                 style="@style/textNormal"

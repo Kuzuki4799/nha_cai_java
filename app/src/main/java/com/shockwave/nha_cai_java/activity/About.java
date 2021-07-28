@@ -7,13 +7,13 @@ import androidx.appcompat.widget.AppCompatImageView;
 import com.shockwave.nha_cai_java.R;
 import com.shockwave.nha_cai_java.base.BaseActivity;
 
-public class AboutActivity extends BaseActivity {
+public class About extends BaseActivity {
 
     private AppCompatImageView imgBack;
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_about;
+        return R.layout.about;
     }
 
     @Override

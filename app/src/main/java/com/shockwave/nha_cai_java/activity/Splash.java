@@ -6,11 +6,11 @@ import android.os.Handler;
 import com.shockwave.nha_cai_java.R;
 import com.shockwave.nha_cai_java.base.BaseActivity;
 
-public class SplashActivity extends BaseActivity {
+public class Splash extends BaseActivity {
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_splash;
+        return R.layout.splash;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class SplashActivity extends BaseActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(Splash.this, Main.class));
                 finish();
             }
         }, 2000);

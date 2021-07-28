@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ibet App</string>
+    <string name="app_name">Maxbet App</string>
     <string name="no_internet">No network, please try again later</string>
     <string name="content_error">Content path error, please try again later</string>
     <string name="double_tab">Please click Back again to exit</string>
@@ -19,7 +19,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="content">
-    Ibet App - là ứng dụng giải trí trực tuyến bom tấn, đẳng cấp và uy tín
+    Maxbet App - là ứng dụng giải trí trực tuyến bom tấn, đẳng cấp và uy tín
 \n
 \n
     Tạo dựng được tên tuổi và mức uy tín cao nhờ sự đảm bảo trong các dịch vụ cung cấp giải trí.

@@ -5,15 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_background"
-    tools:context=".activity.RegisterActivity">
+    android:background="@drawable/bg"
+    tools:context=".activity.Register">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/dimen_20dp"
-        android:src="@drawable/ic_back"
+        android:src="@drawable/backs"
         app:tint="@android:color/white" />
 
     <LinearLayout
@@ -28,7 +28,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_160dp"
-            android:src="@drawable/logo_app" />
+            android:src="@drawable/lgs" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edName"
@@ -38,7 +38,7 @@
             android:layout_marginLeft="@dimen/margin_10dp"
             android:layout_marginTop="@dimen/dimen_30dp"
             android:layout_marginRight="@dimen/margin_10dp"
-            android:background="@drawable/bg_background_radius"
+            android:background="@drawable/bg_radius"
             android:hint="@string/enter_name"
             android:imeOptions="actionNext"
             android:inputType="text"
@@ -59,7 +59,7 @@
             android:layout_marginLeft="@dimen/margin_10dp"
             android:layout_marginTop="@dimen/dimen_20dp"
             android:layout_marginRight="@dimen/margin_10dp"
-            android:background="@drawable/bg_background_radius"
+            android:background="@drawable/bg_radius"
             android:hint="@string/enter_phone"
             android:imeOptions="actionDone"
             android:inputType="phone"

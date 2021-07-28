@@ -21,7 +21,7 @@ import com.shockwave.nha_cai_java.utils.ShareUtils;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class RegisterActivity extends BaseActivity {
+public class Register extends BaseActivity {
 
     private AppCompatImageView imgBack;
     private AppCompatEditText edName;
@@ -32,7 +32,7 @@ public class RegisterActivity extends BaseActivity {
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_register;
+        return R.layout.register;
     }
 
     @Override
@@ -61,11 +61,11 @@ public class RegisterActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if (edName.getText().toString().isEmpty()) {
-                    Toast.makeText(RegisterActivity.this, getString(R.string.empty_name), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Register.this, getString(R.string.empty_name), Toast.LENGTH_SHORT).show();
                 } else if (edPhone.getText().toString().isEmpty()) {
-                    Toast.makeText(RegisterActivity.this, getString(R.string.empty_phone), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Register.this, getString(R.string.empty_phone), Toast.LENGTH_SHORT).show();
                 } else if (!isValidPhoneNumber(edPhone.getText().toString())) {
-                    Toast.makeText(RegisterActivity.this, getString(R.string.wrong_phone), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Register.this, getString(R.string.wrong_phone), Toast.LENGTH_SHORT).show();
                 } else {
                     ContactsName contactsInfo = new ContactsName();
                     contactsInfo.name = edName.getText().toString();
@@ -74,7 +74,7 @@ public class RegisterActivity extends BaseActivity {
                             "account" + "/" + formatter.format(new Date())
                     );
                     memberRef.child(edPhone.getText().toString()).setValue(contactsInfo);
-                    ShareUtils.putBoolean(RegisterActivity.this, ParamUtils.REGISTER, true);
+                    ShareUtils.putBoolean(Register.this, ParamUtils.REGISTER, true);
                     handlerIntentWebView(link);
                 }
             }
@@ -91,7 +91,7 @@ public class RegisterActivity extends BaseActivity {
 
     private void handlerIntentWebView(String url) {
         Bundle bundle = new Bundle();
-        Intent intent = new Intent(this, WebActivity.class);
+        Intent intent = new Intent(this, Web.class);
         bundle.putString(ParamUtils.URL, url);
         intent.putExtra(ParamUtils.BUNDLE_KEY, bundle);
         startActivity(intent);

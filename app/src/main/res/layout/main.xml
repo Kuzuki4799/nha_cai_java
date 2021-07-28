@@ -5,8 +5,8 @@
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_background"
-    tools:context=".activity.MainActivity">
+    android:background="@drawable/bg"
+    tools:context=".activity.Main">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_50dp"
             android:background="@color/transparent"
-            app:navigationIcon="@drawable/ic_menu"
+            app:navigationIcon="@drawable/mes"
             app:theme="@style/textNormalBold" />
 
         <LinearLayout
@@ -32,7 +32,7 @@
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dimen_160dp"
-                android:src="@drawable/logo_app" />
+                android:src="@drawable/lgs" />
 
             <Button
                 android:id="@+id/btnRegister"
@@ -99,10 +99,10 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_margin="@dimen/margin_5dp"
-            android:text="Ver 2.7.6"
+            android:text="Ver 2.8.1"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_12sp" />
     </RelativeLayout>
 
-    <include layout="@layout/layout_navigation" />
+    <include layout="@layout/navigation" />
 </androidx.drawerlayout.widget.DrawerLayout>

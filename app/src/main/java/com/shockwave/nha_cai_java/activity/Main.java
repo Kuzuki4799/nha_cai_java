@@ -28,7 +28,7 @@ import com.shockwave.nha_cai_java.utils.NetWorkUtils;
 import com.shockwave.nha_cai_java.utils.ParamUtils;
 import com.shockwave.nha_cai_java.utils.ShareUtils;
 
-public class MainActivity extends BaseActivity implements View.OnClickListener {
+public class Main extends BaseActivity implements View.OnClickListener {
 
     private DrawerLayout drawerLayout;
     private Toolbar toolbar;
@@ -45,7 +45,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.main;
     }
 
     @Override
@@ -73,7 +73,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
-                    Toast.makeText(MainActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Main.this, error.getMessage(), Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
@@ -95,7 +95,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
-        toolbar.setNavigationIcon(R.drawable.ic_menu);
+        toolbar.setNavigationIcon(R.drawable.mes);
     }
 
     @Override
@@ -119,13 +119,13 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         if (link != null) {
             handlerIntentWebView(url);
         } else {
-            Toast.makeText(MainActivity.this, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
+            Toast.makeText(Main.this, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
         }
     }
 
     private void handlerIntentWebView(String url) {
         Bundle bundle = new Bundle();
-        Intent intent = new Intent(this, WebActivity.class);
+        Intent intent = new Intent(this, Web.class);
         bundle.putString(ParamUtils.URL, url);
         intent.putExtra(ParamUtils.BUNDLE_KEY, bundle);
         startActivity(intent);
@@ -133,15 +133,15 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     private void handlerRegister() {
         if (link != null) {
-            if (ShareUtils.getBoolean(MainActivity.this, ParamUtils.REGISTER, false)) {
+            if (ShareUtils.getBoolean(Main.this, ParamUtils.REGISTER, false)) {
                 handlerIntentWebView(link.register);
             } else {
-                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+                Intent intent = new Intent(Main.this, Register.class);
                 intent.putExtra(ParamUtils.URL, link.register);
                 startActivity(intent);
             }
         } else {
-            Toast.makeText(MainActivity.this, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
+            Toast.makeText(Main.this, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -149,18 +149,18 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.llCode:
-                new DialogConfirm(MainActivity.this, Gravity.CENTER, false).show();
+                new DialogConfirm(Main.this, Gravity.CENTER, false).show();
                 drawerLayout.closeDrawers();
                 break;
             case R.id.llAbout:
-                openNewActivity(AboutActivity.class);
+                openNewActivity(About.class);
                 drawerLayout.closeDrawers();
                 break;
             case R.id.btnCSKH:
                 if (link != null) {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(link.cskh)));
                 } else {
-                    Toast.makeText(MainActivity.this, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Main.this, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
                 }
                 break;
             case R.id.btnGift:
