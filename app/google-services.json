@@ -646,6 +646,35 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:320607925528:android:974fe7de103ec8a9611a6d",
+        "android_client_info": {
+          "package_name": "com.shockwave.app_85bet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320607925528-u3p42d34btd91gj04vtkegpp420o7eip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYUuRcx1AV3_KP1MgXS552uwfCzf5GDGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320607925528-u3p42d34btd91gj04vtkegpp420o7eip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:320607925528:android:54c3e351a434d4e3611a6d",
         "android_client_info": {
           "package_name": "com.shockwave.ibet_2"
